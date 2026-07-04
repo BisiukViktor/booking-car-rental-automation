@@ -1,0 +1,16 @@
+{
+  "name": "booking-car-rental-automation",
+  "version": "1.0.0",
+  "description": "Playwright + TypeScript automation for Booking.com car rental flow (New York)",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "codegen": "playwright codegen https://www.booking.com/cars/index.html",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.48.0",
+    "typescript": "^5.6.0"
+  }
+}
